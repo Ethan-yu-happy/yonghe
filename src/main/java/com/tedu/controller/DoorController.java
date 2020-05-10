@@ -18,7 +18,7 @@ import com.tedu.service.DoorService;
 public class DoorController {
 	@Autowired	//由spring自动为属性赋值
 	DoorService doorService;
-	//测试
+	//测试2
 	/** 1.查询所有门店信息 */
 	@RequestMapping("/doorList")
 	public String doorList(Model model){
